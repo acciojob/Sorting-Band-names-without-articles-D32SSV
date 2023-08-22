@@ -11,7 +11,7 @@ function removeArticles(name) {
 bandNames.sort((a, b) => removeArticles(a).localeCompare(removeArticles(b)));
 
 // Get the ul element to insert the list items
-const ulElement = document.getElementByTag('ul');
+const ulElement = document.getElementById('band');
 
 // Create and append list items for each band name
 bandNames.forEach(name => {
